@@ -1,0 +1,58 @@
+body {
+  background-image: url("images/weight.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*Formatting font sizes, colors and line spacing*/
+h1 {
+  font-size: 30px; 
+  line-height:0.5;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+
+}
+h2 {
+  font-size: 25px; 
+  color:#a30f04;
+  line-height:0.5;
+
+}
+
+h3 {
+  font-size: 15px; 
+  color:#3a0e3b; 
+  font-family:"Arial"; 
+  line-height:0.5;
+}
+
+h5 {
+  font-size: 20px; 
+  color:#000066; 
+  font-family:"Arial"; 
+  line-height:0.1;
+}
+
+p.small {
+  line-height: 10%;
+}
+ 
+form {
+    margin-top: 20px;
+    border: 5px  double  #4c02ac;
+    border-radius: 3em;
+    padding: 1em;
+    background: rgb(230, 203, 203);
+  
+  }
+ 
+
+input, textarea {
+
+    width: 50px;
+    box-sizing: border-box;
+    background: 10px 10px 5px #FFFFD6;
+    color: rgb(3, 60, 114);
+    font-weight: bold;
+  
+  }
